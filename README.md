@@ -9,11 +9,11 @@ Attention(Q, K, V) = softmax(QKᵀ / √dk) V
 
 <br>
 <br>
-While powerful, self-attention introduces quadratic time complexity O(n²) with respect to sequence length, making Transformers computationally expensive and less suitable for real-time or edge deployment.
+While powerful, self-attention introduces quadratic time complexity O(n²) with respect to sequence length, making Transformers computationally expensive and less suitable for real-time or edge deployment.<br>
 
 To overcome these challenges, this project:
 
-1)Uses a CNN encoder to extract global image features such as scene understanding and object representations.
+1) Uses a CNN encoder to extract global image features such as scene understanding and object representations.
 
 2) Fuses image embeddings with contextual embeddings for multimodal caption generation.
 
